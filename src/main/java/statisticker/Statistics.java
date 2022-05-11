@@ -8,7 +8,7 @@ public class Statistics
     float min = Float.NaN;
     float max = Float.NaN;
     
-    public static Stats getStatistics(List<___> numbers) {
+    public static Stats getStatistics(List<> numbers) {
         //implement the computation of statistics here
         
         int sum = 0;
@@ -22,8 +22,8 @@ public class Statistics
               tempMin = array[i];
            }
         }
-        this.max = sum/(float)numbers.size();
-        this.max = tempMax;
-        this.min = tempMin;
+        average = sum/(float)numbers.size();
+        max = tempMax;
+        min = tempMin;
     }
 }
