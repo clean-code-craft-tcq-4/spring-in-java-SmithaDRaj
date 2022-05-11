@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Statistics 
 {   
-    float average = Float.NaN;
-    float min = Float.NaN;
-    float max = Float.NaN;
+    float average = 0f;
+    float min = 0f;
+    float max = 0f;
     
     public static Stats getStatistics(List<> numbers) {
         //implement the computation of statistics here
@@ -22,6 +22,7 @@ public class Statistics
               tempMin = array[i];
            }
         }
+        System.Out.Println("Average "+average+", Min "+min+", Max "+max);
         average = sum/(float)numbers.size();
         max = tempMax;
         min = tempMin;
