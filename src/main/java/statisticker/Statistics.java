@@ -4,14 +4,10 @@ import java.util.List;
 
 public class Statistics 
 {   
-    float average;
-    float min;
-    float max;
-    public Statistics(average,min,max){
-        this.average = average;
-        this.min = min;
-        this.max = max;
-    }
+    float average = Float.NaN;
+    float min = Float.NaN;
+    float max = Float.NaN;
+    
     public static Stats getStatistics(List<___> numbers) {
         //implement the computation of statistics here
         
