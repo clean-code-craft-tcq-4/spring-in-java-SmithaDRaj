@@ -29,6 +29,7 @@ public class Statistics {
 					tempMin = numbers.get(i);
 				}
 			}
+			System.out.println("Average " + s.average + ", Min " + s.min + ", Max " + s.max);
 			s.average = sum / (float) numbers.size();
 			s.max = tempMax;
 			s.min = tempMin;
