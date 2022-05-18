@@ -18,10 +18,10 @@ public class Statistics {
 		s.min = Float.NaN;
 		if (numbers.size() != 0) {
 
-			int sum = 0;
+			Float sum = 0f;
 			Float tempMax = 0f;
 			Float tempMin = numbers.get(0);
-			for (int i = 0; i < (numbers.size() - 1); i++) {
+			for (int i = 0; i < numbers.size(); i++) {
 				sum += numbers.get(i);
 				if (numbers.get(i) > tempMax) {
 					tempMax = numbers.get(i);
