@@ -1,5 +1,0 @@
-package statisticker
-
-public class EmailAlert{
-  public Boolean emailSent;
-}
