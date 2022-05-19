@@ -1,4 +1,4 @@
-package TCQ;
+package statisticker;
 
 public class EmailAlert extends IAlerter{
 
