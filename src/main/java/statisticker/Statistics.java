@@ -33,7 +33,7 @@ public class Statistics {
 			s.max = tempMax;
 			s.min = tempMin;
 		}
-		System.out.println("Average " + s.average + ", Min " + s.min + ", Max " + s.max);
+		System.out.println("Average =" + s.average + ", Min =" + s.min + ", Max =" + s.max);
 		return s;
 	}
 }
