@@ -1,9 +1,0 @@
-package statisticker
-public class IAlerter {
-	EmailAlert emailAlerter = null;
-    LEDAlert ledAlerter = null;
-	public IAlerter(EmailAlert emailAlerter, LEDAlert ledAlerter){
-	    this.emailAlerter = emailAlerter;
-	    this.ledAlerter = ledAlerter;
-	  }
-}
