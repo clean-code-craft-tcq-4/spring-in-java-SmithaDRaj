@@ -1,1 +1,4 @@
-
+package statisticker
+public class LEDAlert{
+  public Boolean ledGlows;
+}
