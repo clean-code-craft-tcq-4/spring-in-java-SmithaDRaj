@@ -1,6 +1,9 @@
 package statisticker;
 
 import java.util.List;
+import statisticker.EmailAlert;
+import statisticker.LEDAlert;
+import statisticker.IAlerter;
 
 public class StatsChecker {
 	EmailAlert emailAlerter = new EmailAlert();
